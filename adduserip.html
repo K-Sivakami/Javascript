@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Javascript Userinput
+        </title>
+        <script type="text/javascript">
+            function add(){
+                var i;
+                var j;
+                var s;
+                i=parseInt(document.getElementById("num1").value);
+                j=parseInt(document.getElementById("num2").value);
+                s=i+j;
+                document.write("sum="+s);
+            }
+        </script>
+    </head>
+    <body>
+        Number1:<input type="number" name="n1" id="num1"/><br>
+        Number2:<input type="number" name="n2" id="num2"/><br>
+        <input type="button" value="add" onclick="add()"/>
+    </body>
+</html>

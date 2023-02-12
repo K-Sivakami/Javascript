@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LargestNumber</title>
+    <script type="text/javascript">
+    function checkNumber(){
+        var a,b;
+        a=parseInt(document.getElementById("num1").value);
+        b=parseInt(document.getElementById("num2").value);
+        if(a>b){ 
+            document.write("Largest Number is:"+a);
+        }
+        else if(a<b){
+            document.write("Largest number is:"+b);
+        }
+        
+
+    }
+</script>
+</head>
+
+<body>
+Enter number1:<input type="number"  id="num1"/><br>
+Enter number2:<input type="number"  id="num2"/><br>
+<input type="button" value="check_number" onclick="checkNumber()"/>
+</body>
+</html>

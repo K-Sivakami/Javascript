@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<body>
+<form  name="registrationform" method="post" action="Registration.html">
+<table border="1">
+<tr>
+<td>Username:  </td>
+<td><input type="text" name="uname"  required maxlength="10" placeholder="Enter Name" /></td>
+</tr>
+<tr>
+<td>Password:  </td>
+<td><input type="password" name="upass" required/></td>
+</tr>
+<tr>
+<td>Age:  </td>
+<td><input type="number" name="uage" min=18 max=100 required/></td>
+</tr>
+<tr>
+<td>E mail:  </td>
+<td><input type="text" name="uemail" required/></td>
+</tr>
+<tr>
+<td>Date of Birth:  </td>
+<td><input type="date" name="udob" required/></td>
+</tr>
+<tr>
+<td>Gender:</td>
+<td><input type="radio" name="Gender">Male
+<input type="radio" name="Gender">Female
+<input type="radio" name="Gender">Transgender</td></tr>
+<tr><td>Address:</td>
+<td><textarea rows="5" cols="20"></textarea>
+</td></tr>
+<tr>
+<td>Hobbies</td>
+<td><input type="checkbox" name="hobby">Cricket
+<input type="checkbox" name="hobby1">Reading story
+<input type="checkbox" name="hobby2">Swimming</td></tr>
+<tr><td>Country</td>
+<td><select name="Country">
+<option value="India">India</option>
+<option value="USA">USA</option>
+<option value="Cannada">Cannada</option>
+</select>
+</td>
+</tr>
+<tr><td>Add File</td>
+<td><input type="file"</td>
+</tr>
+<tr><td></td>
+<td>
+<input type="submit" value="Register"/>
+<input type="reset" value="Cancel"/>
+</td>
+</tr>
+
+
+</table>
+</form>
+</body>
+</html>
